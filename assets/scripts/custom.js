@@ -16,12 +16,7 @@ jQuery(function ($) {
     =====================================================*/
 
     //  HEADER SLIDE /CAROUSEL SECTION FUNCTION 
-	$(function(){
-		$('#slide-head.carousel').carousel({
-			interval: 2000,
-			pause: false
-		});
-	});
+	
 
 	
 

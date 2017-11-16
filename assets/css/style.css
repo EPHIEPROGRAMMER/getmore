@@ -290,81 +290,22 @@ color: #fff;
 
 
 /*==========================================
-   SLIDE SECTION / CAROUSEL SECTION
+   HOMEPAGE SECTION
     =====================================================*/
 
-#slide-head {
-  padding: 410px 0px 50px 0px;
-color: #022406;
-/* background-color: rgb(19, 170, 74); */
 
-}
-#slide-head .prev,
-#slide-head .next {
-  position: absolute;
-  top: 65%;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
-  display: inline-block;
-  margin-top: -50px;
-  font-size: 24px;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  z-index: 5;
-}
-#slide-head .prev:hover,
-#slide-head .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
+    .banner{ width:100%; float:left; position:relative;}
+    .banner img{ width:100%;}
+    .bannerText{ position:absolute; bottom:48px;}
+    .bannerText h2{ background:url(../img/transparent-black-bg.png) repeat; font-size:60px;font-family: 'playfair_displayitalic'; color:#FFF;padding: 18px 38px 25px;display:inline-block; margin:0;}
+    .bannerText p{ font-size:26px;font-family: 'playfair_displayregular'; color:#243960; display:inline-block; background:url(../img/transparent-white-bg.png) repeat;    padding: 25px 40px 20px;}
+    /******************************header css end***********************************/
+    
 
-#slide-head .prev {
-  left: 10px;
-}
-#slide-head .next {
-  right: 10px;
-}
-#slide-head .item {
-  -moz-transition: opacity ease-in-out 500ms;
-  -o-transition: opacity ease-in-out 500ms;
-  -webkit-transition: opacity ease-in-out 500ms;
-  transition: opacity ease-in-out 500ms;
-  left: 0 !important;
-  opacity: 0;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  display: block !important;
-  z-index: 1;
-  text-align: center;
-}
-#slide-head .item:first-child {
-  top: auto;
-  position: relative;
-}
-#slide-head .item.active {
-  opacity: 1;
-  -moz-transition: opacity ease-in-out 500ms;
-  -o-transition: opacity ease-in-out 500ms;
-  -webkit-transition: opacity ease-in-out 500ms;
-  transition: opacity ease-in-out 500ms;
-  z-index: 2;
-}
-#slide-head .item.active h1 {
-  -webkit-animation: scaleUp 400ms;
-  -moz-animation: scaleUp 400ms;
-  -o-animation: scaleUp 400ms;
-  -ms-animation: scaleUp 400ms;
-  animation: scaleUp 400ms;
-}
 
-#slide-head h1 {
-  font-size: 68px;
-  text-shadow: 0 3px rgba(0, 0, 0, 0.1);
-  color: #fff;
-}
+
+
+
  /* Smooth Animation */ 
 @keyframes scaleUp {
   0% {
