@@ -293,7 +293,12 @@ color: #fff;
    HOMEPAGE SECTION
     =====================================================*/
 
-
+    .mar{background-color: navy;
+         color: white;
+  }
+  #m2{
+    color: navy;
+  }
     .banner{ width:100%; float:left; position:relative;}
     .banner img{ width:100%;}
     .bannerText{ position:absolute; bottom:48px;}
